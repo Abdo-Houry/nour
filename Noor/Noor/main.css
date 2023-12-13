@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    height: 60px;
+    background-color: #7f4987;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+nav span{
+    font-size: 25px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+nav ul li{
+    margin-right: 15px;
+    color: white;
+}
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+    height: calc(100vh - 60px);
+    background-size: cover;
+    position: relative;
+}
+#home h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    text-align: center;
+}
+#home h2 span{
+    color: white;
+    font-weight: bold;
+    border-top: 2px solid #680178;
+    border-bottom: 2px solid #680178;
+}
+#home h2 p{
+    color: white;
+    font-weight: bold;
+}
+#skills h1{
+    text-align: center;
+    margin-top: 15px;
+}
+#skills ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#skills li{
+    background-color: #7f4987;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#skills li:hover{
+    width: 80%;
+    background-color: #eee;
+    color: #7f4987;
+}
+#contact{
+    height: 55vh;
+    background-color: #7f4987;
+    margin-top: 20px;
+    position: relative;
+}
+#contact h2{
+    text-align: center;
+    color: white;
+}
+#contact form{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #680178;
+    padding: 20px 250px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+#contact form input{
+    width: 100%;
+    border-radius: 20px;
+}
+#contact form textarea{
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#contact form button{
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: #680178;
+    font-size: 20px;
+}
+#contact form label{
+    color: white;
+}
